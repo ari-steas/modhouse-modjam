@@ -1,9 +1,6 @@
 name: XML Validation
 on:
-  pull_request:
-    branches:
-      - main
-      - stable
+  push:
   workflow_dispatch:
 jobs:
   validate-xml:
