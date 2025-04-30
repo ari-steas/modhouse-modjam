@@ -1,5 +1,9 @@
 # MODHOUSE MODJAM
 
-add whatever as long as it won't get us in trouble with github or steam
 
-make a pr nerd
+##Rules##
+  -Nothing against Steam or Github TOS
+  -No Resuse of Assets from other mods (even if they are yours)
+  -72 hour time limit (Friday to Sunday)
+  -If its not funny you get banned :)
+Have fun and make PRs nerds
