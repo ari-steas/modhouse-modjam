@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+        <Sound>
+  <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ShipLargeThrusterHydrogen</SubtypeId>
+            </Id>
+            <Category>SHIP</Category>
+            <MaxDistance>150</MaxDistance>
+            <Volume>0.4</Volume>
+            <Loopable>true</Loopable>
+            <RealisticFilter>realShipFilter</RealisticFilter>
+            <RealisticVolumeChange>0.8</RealisticVolumeChange>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>racer\2000Racin\engine.wav</Loop>
+                </Wave>
+                <Wave Type="D3">
+                    <Loop>racer\2000Racin\engine.wav</Loop>
+                </Wave>
+            </Waves>
+			</Sound>
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ShipThrusterHydrogenPush</SubtypeId>
+            </Id>
+            <Category>SHIP</Category>
+            <MaxDistance>150</MaxDistance>
+            <Volume>0.2</Volume>
+            <PitchVariation>75</PitchVariation>
+            <Loopable>true</Loopable>
+            <RealisticFilter>realShipFilter</RealisticFilter>
+            <RealisticVolumeChange>1.8</RealisticVolumeChange>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>racer\2000Racin\gofuck.wav</Loop>
+                </Wave>
+                <Wave Type="D3">
+                    <Loop>racer\2000Racin\gofuck.wav</Loop>
+                </Wave>
+            </Waves>
+			</Sound>
+        <Sound>
+			<Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ShipLargeStart</SubtypeId>
+            </Id>
+            <Category>SHIP</Category>
+            <MaxDistance>400</MaxDistance>
+            <Volume>0.75</Volume>
+            <RealisticFilter>realShipFilter</RealisticFilter>
+            <RealisticVolumeChange>0.6</RealisticVolumeChange>
+            <Waves>
+                <Wave Type="D2">
+                    <Start>racer\2000Racin\starturismo.wav</Start>
+                </Wave>
+                <Wave Type="D3">
+                    <Start>racer\2000Racin\starturismo.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+        <Sound>
+		<Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ShipLargeThrusterHydrogenIdle</SubtypeId>
+            </Id>
+            <Category>SHIP</Category>
+            <MaxDistance>150</MaxDistance>
+            <Volume>0.6</Volume>
+            <Loopable>true</Loopable>
+            <RealisticFilter>realShipFilter</RealisticFilter>
+            <RealisticVolumeChange>0.6</RealisticVolumeChange>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>racer\2000Racin\Ideliot.wav</Loop>
+                </Wave>
+                <Wave Type="D3">
+                    <Loop>racer\2000Racin\Ideliot.wav</Loop>
+                </Wave>
+            </Waves>
+        </Sound>
+        <Sound>
+		<Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ShipLargeSpeedDown</SubtypeId>
+            </Id>
+            <Category>SHIP</Category>
+            <MaxDistance>150</MaxDistance>
+            <Volume>0.3</Volume>
+            <RealisticFilter>realShipFilter</RealisticFilter>
+            <RealisticVolumeChange>0.6</RealisticVolumeChange>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>racer\2000Racin\dower1.wav</Start>
+                </Wave>
+				<Wave Type="D3">
+                    <Start>racer\2000Racin\dower2.wav</Start>
+                </Wave>
+                <Wave Type="D2">
+                    <Start>racer\2000Racin\dower1.wav</Start>
+                </Wave>
+				<Wave Type="D2">
+                    <Start>racer\2000Racin\dower2.wav</Start>
+                </Wave>
+            </Waves>
+			</Sound>
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ShipLargeSpeedUp</SubtypeId>
+            </Id>
+            <Category>SHIP</Category>
+            <MaxDistance>150</MaxDistance>
+            <Volume>0.3</Volume>
+            <RealisticFilter>realShipFilter</RealisticFilter>
+            <RealisticVolumeChange>1</RealisticVolumeChange>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>racer\2000Racin\uoer1.wav</Start>
+                </Wave>
+				<Wave Type="D3">
+                    <Start>racer\2000Racin\uoer2.wav</Start>
+                </Wave>
+                <Wave Type="D2">
+                    <Start>racer\2000Racin\uoer1.wav</Start>
+                </Wave>
+				<Wave Type="D2">
+                    <Start>racer\2000Racin\uoer2.wav</Start>
+                </Wave>
+            </Waves>
+		
+        </Sound>
+    </Sounds>
+</Definitions>
