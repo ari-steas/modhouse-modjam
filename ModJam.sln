@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModJam", "Data\Scripts\OneF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreParts", "Data\Scripts\OneFuckingFolderDeeper\CoreParts\CoreParts.csproj", "{8E934E8C-D922-41B1-82EB-EAF5455B7B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBar", "GeekBar\GeekBar.csproj", "{FD4DBB00-C4B6-4546-9885-4B51950AE6E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{8E934E8C-D922-41B1-82EB-EAF5455B7B72}.Debug|x64.Build.0 = Debug|x64
 		{8E934E8C-D922-41B1-82EB-EAF5455B7B72}.Release|x64.ActiveCfg = Release|x64
 		{8E934E8C-D922-41B1-82EB-EAF5455B7B72}.Release|x64.Build.0 = Release|x64
+		{FD4DBB00-C4B6-4546-9885-4B51950AE6E4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD4DBB00-C4B6-4546-9885-4B51950AE6E4}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD4DBB00-C4B6-4546-9885-4B51950AE6E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD4DBB00-C4B6-4546-9885-4B51950AE6E4}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
