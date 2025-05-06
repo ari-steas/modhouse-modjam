@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>TerminalBlock</TypeId>
+				<SubtypeId>Modjam_EngineerCube</SubtypeId>
+			</Id>
+			<DisplayName>Engineer Cube</DisplayName>
+			<Description>We have compressed an average boring engineer into a much more convenient, compact and fun cubic shape</Description>
+			<Icon>Textures\GUI\Icons\EngineerCube.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Humanoidmp4\EngineerCube.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="4" />
+				<Component Subtype="Computer" Count="2" />
+				<Component Subtype="Display" Count="4" />
+				<Component Subtype="InteriorPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="Display" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Humanoidmp4\EngineerCube_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Humanoidmp4\EngineerCube_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>EngineerCube</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
